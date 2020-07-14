@@ -19,6 +19,12 @@ set wrap           " Zeilenumbruch aktivieren
 "set list           " listchars anzeigen
 "set listchars=tab:»·,trail:· " Tabs und Leerzeichen am Zeilenende anzeigen
 
+" Deactivate the arrow keys so that i don't cheat constantly and begin to learn vim
+noremap <Up> <Nop>
+noremap <Down> <Nop>
+noremap <Left> <Nop>
+noremap <Right> <Nop>
+
 colorscheme default  " Farbschema
 " colorscheme desert  " Farbschema
 
